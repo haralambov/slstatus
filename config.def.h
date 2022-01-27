@@ -82,5 +82,8 @@ static const struct arg args[] = {
 	{ separator,        " | ",          NULL },
 	{ uptime,           " %s",         NULL },
 	{ separator,        " | ",          NULL },
+	{ wifi_essid,       " %s (",       "wlp3s0" },
+	{ wifi_perc,        "%s)",          "wlp3s0" },
+	{ separator,        " | ",          NULL },
 	{ datetime,         " %s",         "%b %d (%a) %I:%M%p" }
 };
